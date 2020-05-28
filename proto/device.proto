@@ -1,0 +1,21 @@
+syntax = "proto3";
+package iot;
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "proto;pb";
+
+message Device {
+    string name = 1;
+    int64 id = 2;
+    double lat = 3;
+    double long = 4;
+
+    enum DeviceType {
+        MOBILE = 0;
+        DESKTOP = 1;
+        IOT = 2;
+    }
+
+    google.protobuf.Timestamp last_updated = 5;
+}
