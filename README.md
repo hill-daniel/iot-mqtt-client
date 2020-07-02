@@ -1,6 +1,6 @@
 # Test client for processing protocol buffers messages with AWS IoT Core
 
-## Part of the codecentric blog post ["Processing protocol buffers messages with AWS IoT Core"](https://blog.codecentric.de/en/2020/06/processing-protobufs-with-iot-core) 
+## Part of the codecentric blog post ["Processing protocol buffers messages with AWS IoT Core"](https://blog.codecentric.de/en/2020/07/processing-protobufs-with-iot-core) 
 
 This is the client for sending protocol buffers messages to the AWS IoT Core MQTT endpoint.
 
